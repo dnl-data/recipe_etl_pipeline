@@ -1,5 +1,5 @@
 # Data Warehousing with a Recipe Database
-This small project demonstrates the process of setting up a data warehouse for storing, processing recipe data. The focus is on building an ETL (Extract, Transform, Load) pipeline to pull data an API, clean it, and load it into a SQL-based data warehouse.
+This small project demonstrates the process of setting up a data warehouse for storing, processing recipe data. The focus is on building an ETL (Extract, Transform, Load) pipeline to pull data from an API, clean it, and load it into a SQL-based data warehouse.
 
 This repository outlines the setup of a data warehousing pipeline for a recipe database.
 
