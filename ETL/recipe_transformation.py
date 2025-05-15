@@ -1,4 +1,8 @@
+from collections import defaultdict
+import re
+
 import pandas as pd
+import numpy as np
 
 uncleaned_df = pd.read_csv("uncleaned_recipes.csv")
 
