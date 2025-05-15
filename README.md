@@ -1,9 +1,8 @@
 # Recipe ETL Pipeline
-This small project focuses on building an ETL (Extract, Transform, Load) pipeline to pull data from an API, clean it, and load it into a SQL-based data warehouse.
+This small project focuses on an ETL (Extract, Transform, Load) to pull data from an API, clean it, and load it into a SQL-based data warehouse.
 
-This repository outlines the setup of an ETL pipeline for a recipe database.
 
-## 1️⃣ ETL Pipeline [Python : pandas]
+## 1️⃣ ETL [Python : pandas]
 **Extract**
 
 Data is pulled from an Recipe API (https://www.themealdb.com/api.php) | json to dataframe
