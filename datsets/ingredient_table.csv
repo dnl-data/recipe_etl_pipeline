@@ -1,0 +1,531 @@
+ingredient_id,ingredient
+1,digestive biscuits
+2,flour
+3,milk
+4,chicken
+5,butter
+6,mushrooms
+7,aubergine
+8,beef brisket
+9,beef
+10,olive oil
+11,rapeseed oil
+12,sausages
+13,banana
+14,hazlenuts
+15,goose fat
+16,onions
+17,water
+18,fennel
+19,ricotta
+20,potatoes
+21,rice
+22,minced beef
+23,bacon
+24,filo pastry
+25,garlic
+26,bread
+27,beetroot
+28,buckwheat
+29,enchilada sauce
+30,plain chocolate
+31,salted butter
+32,macaroni
+33,cajun
+34,chicken breasts
+35,linguine pasta
+36,clams
+37,dark chocolate
+38,chickpeas
+39,chicken stock
+40,vegetable oil
+41,white flour
+42,single cream
+43,puff pastry
+44,shortcrust pastry
+45,kale
+46,mars bar
+47,tomatoes
+48,cashews nuts
+49,lentils
+50,almond
+51,orange
+52,quinoa
+53,cannellini beans
+54,eggs plants
+55,unsalted butter
+56,toor dal
+57,sea salt
+58,strawberries
+59,red snapper
+60,floury potatoes
+61,clotted cream
+62,eggs
+63,prawns
+64,cream cheese
+65,broad beans
+66,haddock
+67,sardines
+68,fettuccine
+69,raw king prawns
+70,butter beans
+71,cabbage
+72,salmon
+73,chocolate chips
+74,selfraising flour
+75,whole wheat
+76,sushi rice
+77,fries
+78,smoked haddock
+79,sake
+80,yeast
+81,brown lentils
+82,lamb shoulder
+83,sour cream
+84,bulgur wheat
+85,lamb
+86,mozzarella balls
+87,peanut
+88,sunflower oil
+89,cumin
+90,tofu
+91,goat meat
+92,mulukhiyah
+93,carrots
+94,red chili
+95,custard
+96,coconut milk
+97,veal
+98,oxtail
+99,rice stick noodles
+100,spaghetti
+101,pumpkin
+102,corn flour
+103,pears
+104,tiger prawns
+105,peanut butter
+106,pork
+107,miniature marshmallows
+108,mackerel
+109,kidney beans
+110,baby aubergine
+111,penne rigate
+112,medjool dates
+113,small potatoes
+114,mussels
+115,butternut squash
+116,ham
+117,brown sugar
+118,canola oil
+119,salt cod
+120,herring
+121,spring onions
+122,green pepper
+123,soy sauce
+124,lemons
+125,tahini
+126,lamb mince
+127,pork chops
+128,green red lentils
+129,roasted vegetables
+130,double cream
+131,udon noodles
+132,caster sugar
+133,oil
+134,challots
+135,chilled butter
+136,english mustard
+137,salt
+138,broccoli
+139,tomatoes sauce
+140,beef shin
+141,thyme
+142,parsley
+143,red onions
+144,kielbasa
+145,beef stock
+146,beef stock concentrate
+147,shredded monterey jack cheese
+148,dark soft brown sugar
+149,cayenne pepper
+150,vinaigrette dressing
+151,ginger
+152,sugar snap peas
+153,cacao
+154,milk chocolate
+155,dark brown soft sugar
+156,icing sugar
+157,bramley apple
+158,demerara sugar
+159,muscovado sugar
+160,italian fennel sausages
+161,pickle juice
+162,minced pork
+163,courgettes
+164,breadcrumbs
+165,bay leaves
+166,sugar
+167,leek
+168,heavy cream
+169,wood ear mushrooms
+170,lamb loin chops
+171,lime
+172,mirin
+173,doner meat
+174,khus khus
+175,chopped onions
+176,prunes
+177,baby plum tomatoes
+178,coconut cream
+179,chestnuts
+180,paneer
+181,chili
+182,dark soy sauce
+183,beef gravy
+184,peanut cookies
+185,beef fillets
+186,white wine
+187,red pepper
+188,eggs yolks
+189,harissa spice
+190,pretzels
+191,eggs white
+192,blackberries
+193,peas
+194,ackee
+195,avocado
+196,white wine vinegar
+197,apple
+198,coriander
+199,rice wine
+200,paprika
+201,green beans
+202,lemon
+203,parmesan
+204,coconut sugar
+205,rice vermicelli
+206,duck legs
+207,white chocolate chips
+208,garlic cloves
+209,sesame seeds oil
+210,cold water
+211,sultanas
+212,celery
+213,baking powder
+214,shallots
+215,pepper
+216,sesame seeds burger buns
+217,cinnamon stick
+218,tomatoes puree
+219,chicken stock cube
+220,corn tortillas
+221,golden syrup
+222,white fish
+223,bicarbonate of soda
+224,braeburn apple
+225,rice krispies
+226,candied peel
+227,grand marnier
+228,lettuce
+229,sesame seeds
+230,meringue nests
+231,semiskimmed milk
+232,dry white wine
+233,vanilla extract
+234,green chili
+235,mustard powder
+236,lemon juice
+237,condensed milk
+238,vanilla
+239,curry powder
+240,garlic sauce
+241,saffron
+242,cheese
+243,cumin seeds
+244,thai red curry paste
+245,lamb kidney
+246,dried oregano
+247,fresh basil
+248,massaman curry paste
+249,black pepper
+250,greek yogurt
+251,cocoa
+252,ginger paste
+253,oyster sauce
+254,gelatine leaves
+255,sauerkraut
+256,yellow pepper
+257,suet
+258,redcurrants
+259,cucumber
+260,english muffins
+261,cardamom
+262,scallions
+263,spinach
+264,eggs rolls
+265,chopped tomatoes
+266,raspberry jam
+267,cinnamon
+268,black treacle
+269,red wine
+270,cherry tomatoes
+271,cloves
+272,
+273,fajita seasoning
+274,smoked paprika
+275,honey
+276,light brown soft sugar
+277,red wine jelly
+278,passata
+279,raisins
+280,ginger cordial
+281,orange blossom water
+282,nutmeg
+283,christmas pudding
+284,turmeric
+285,white fish fillets
+286,parmesan cheese
+287,creme fraiche
+288,tarragon leaves
+289,fish stock
+290,freshly chopped parsley
+291,garlic powder
+292,starch
+293,ground beef
+294,vegetable stock
+295,hotsauce
+296,vegetable stock cube
+297,lamb leg
+298,farfalle
+299,doubanjiang
+300,mince
+301,mustard
+302,cheese curds
+303,star anise
+304,vinegar
+305,fennel bulb
+306,lean minced beef
+307,vermicelli pasta
+308,red wine vinegar
+309,currants
+310,raspberries
+311,allspice
+312,mayonnaise
+313,cream
+314,ground ginger
+315,worcestershire sauce
+316,gruyere
+317,zucchini
+318,mixed grain
+319,parma ham
+320,chorizo
+321,chestnuts mushrooms
+322,maple syrup
+323,iceberg lettuce
+324,granulated sugar
+325,rolled oats
+326,squash
+327,flour tortillas
+328,ground almond
+329,ghee
+330,apricot jam
+331,mint
+332,black pudding
+333,french lentils
+334,kosher salt
+335,ground pork
+336,red pepper flakes
+337,balsamic vinegar
+338,mascarpone
+339,ras el hanout
+340,ginger garlic paste
+341,madras paste
+342,dill
+343,extra virgin olive oil
+344,rosemary
+345,fermented black beans
+346,white vinegar
+347,peaches
+348,lemon zest
+349,dried fruit
+350,baguette
+351,red chili flakes
+352,sage
+353,smoked salmon
+354,pecorino
+355,minced garlic
+356,thai green curry paste
+357,horseradish
+358,capers
+359,tuna
+360,flax eggs
+361,shiitake mushrooms
+362,freerange eggs beaten
+363,red chili powder
+364,pecan nuts
+365,refried beans
+366,king prawns
+367,dried apricots
+368,black olives
+369,sherry
+370,swede
+371,mozzarella
+372,mixed peel
+373,chives
+374,turnips
+375,fish sauce
+376,green olives
+377,wild mushrooms
+378,tamarind paste
+379,desiccated coconut
+380,scotch bonnet
+381,fennel seeds
+382,blueberries
+383,creamed corn
+384,ciabatta
+385,basil
+386,paella rice
+387,jam
+388,italian seasoning
+389,rocket
+390,basil leaves
+391,jerusalem artichokes
+392,cornstarch
+393,rhubarb
+394,feta
+395,black beans
+396,turkey mince
+397,tomatoes ketchup
+398,almond milk
+399,bouquet garni
+400,dark rum
+401,barbeque sauce
+402,dill pickle
+403,little gem lettuce
+404,hard taco shells
+405,potatoes starch
+406,sundried tomatoes
+407,gruyère
+408,onions salt
+409,celeriac
+410,chili powder
+411,shortening
+412,vine leaves
+413,rice noodles
+414,pita bread
+415,coriander leaves
+416,garam masala
+417,pilchards
+418,oatmeal
+419,brandy
+420,canned tomatoes
+421,ground cumin
+422,caramel
+423,frozen peas
+424,basmati rice
+425,sweetcorn
+426,thai fish sauce
+427,lasagne sheets
+428,almond extract
+429,stout
+430,brie
+431,noodles
+432,coriander seeds
+433,shredded mexican cheese
+434,couscous
+435,walnuts
+436,flaked almond
+437,glace cherry
+438,mustard seeds
+439,rice vinegar
+440,baked beans
+441,cod
+442,cubed feta cheese
+443,charlotte potatoes
+444,gouda cheese
+445,cilantro
+446,buns
+447,sichuan pepper
+448,fresh thyme
+449,peanut oil
+450,hot beef stock
+451,diced tomatoes
+452,stirfry vegetables
+453,vegan butter
+454,ice cream
+455,stilton cheese
+456,prosciutto
+457,plum tomatoes
+458,turmeric powder
+459,salsa
+460,grape tomatoes
+461,cider
+462,whole milk
+463,oregano
+464,pine nuts
+465,asparagus
+466,monkfish
+467,vine tomatoes
+468,brown rice
+469,wonton skin
+470,jalapeno
+471,chopped parsley
+472,fruit mix
+473,custard powder
+474,anchovy fillets
+475,orange zest
+476,peanut brittle
+477,apple cider vinegar
+478,caramel sauce
+479,baby squid
+480,dijon mustard
+481,goat cheese
+482,soya milk
+483,oysters
+484,cheddar cheese
+485,fromage frais
+486,celery salt
+487,lard
+488,monterey jack cheese
+489,duck sauce
+490,water chestnuts
+491,apricot
+492,chinese broccoli
+493,marjoram
+494,pitted black olives
+495,toffee popcorn
+496,beans sprouts
+497,ancho chillies
+498,yogurt
+499,green salsa
+500,dark chocolate chips
+501,tinned tomatos
+502,full fat yogurt
+503,truffle oil
+504,naan bread
+505,haricot beans
+506,squid
+507,rigatoni
+508,tamarind balls
+509,wholegrain bread
+510,tabasco sauce
+511,mixed spice
+512,boiling water
+513,jasmine rice
+514,cooking wine
+515,fenugreek
+516,rose water
+517,paccheri pasta
+518,caraway seeds
+519,dark brown sugar
+520,bowtie pasta
+521,malt vinegar
+522,colby jack cheese
+523,gochujang
+524,borlotti beans
+525,pink food colouring
+526,gruyere cheese
+527,clove
+528,cashews
+529,marzipan
+530,biryani masala
