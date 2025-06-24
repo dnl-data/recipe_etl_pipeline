@@ -8,35 +8,27 @@ This small project focuses on an ETL (Extract, Transform, Load) pipeline that pu
 
 ## Project Scope
 ### 1️⃣ EXTRACT
-* **API Integration:** Extract data from Recipe API (https://www.themealdb.com/api.php) in JSON format.
-* **Data Loading:** Convert JSON response to pandas DataFrame for processing.
+
+* **API Integration:** Extracting data from Recipe API (https://www.themealdb.com/api.php) in JSON format.
+* **Data Loading:** Converting JSON response to pandas DataFrame for processing.
+
 
 ### 2️⃣ TRANSFORM
-* Data Cleaning: Remove irrelevant columns, rename columns, and standardize case formatting.
 
-● Normalization: Standardize ingredient names (e.g., "sugar" to "granulated sugar") and create separate tables to maintain normalized database structure.
+* **Data Cleaning:** Removing irrelevant columns, rename columns, and standardize case formatting.
 
-● Data Conversion: Create new columns based on existing data to enhance analytical capabilities.
+* **Normalization:** Standardizing ingredient names (e.g., "sugar" to "granulated sugar") and create separate tables to maintain normalized database structure.
+
+* **Data Conversion:** Creating new columns based on existing data to enhance analytical capabilities.
 
 
-**Load**
+### 3️⃣ LOAD
 
-After transformation, the clean data is loaded into PostgreSQL
+* **PostgreSQL Integration:** Loading the cleaned and normalized dataset into PostgreSQL data warehouse.
+  
+* **Indexing & Performance Optimization:** Setting up indexes for frequently used columns such as recipe_id, ingredient_id to ensure fast querying and reporting, speeding up searches and aggregations for complex queries and table joins.
+  
+* **Data Validation & Quality Checks:** Applying SQL constraints (NOT NULL, FOREIGN KEY) to maintain data integrity and ensure referential integrity between related tables. Execute test queries (aggregate, filter, join) to ensure data consistency and identify any anomalies or errors during the ETL process.
 
-### 2️⃣ Indexing & Performance Optimization
-To ensure fast querying and reporting, indexes are set up for frequently used columns such as recipe_id, ingredient_id... This helps speed up searches and aggregations when performing complex queries or joining multiple tables.
-
-### 3️⃣ Data Validation & Quality Checks
-**SQL Constraints**
-
-To maintain data integrity, SQL constraints are applied, such as:
-
-NOT NULL: Ensuring no critical fields are left empty.
-
-FOREIGN KEY: Ensuring referential integrity between related tables (e.g., linking ingredients to specific recipes).
-
-**Data Consistency**
-
-Test queries (aggregate, filter ,join...) are executed to ensure data consistency and to identify any anomalies or errors that might have occurred during the ETL process 
 
 
