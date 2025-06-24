@@ -2,8 +2,8 @@
 This small project focuses on an ETL (Extract, Transform, Load) pipeline that pulls data from an API, performs extensive cleaning on a complex and messy dataset, and loads the results into a SQL-based data warehouse. Tackling the cleaning step was a real challenge and an essential part of making the data usable — a task I was proud to complete.
 
 ## Technologies Used
-**Python/Pandas -** for data manipulation and transformation.
-**PostgreSQL -** for relational data storage
+* **Python/Pandas -** for data manipulation and transformation.
+* **PostgreSQL -** for relational data storage
 
 ## Project Scope
 ### 1️⃣ ETL
