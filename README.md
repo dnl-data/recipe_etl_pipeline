@@ -1,7 +1,7 @@
 # Recipe ETL Pipeline
 This small project focuses on an ETL (Extract, Transform, Load) pipeline that pulls data from an API, performs extensive cleaning on a complex and messy dataset, and loads the results into a SQL-based data warehouse. Tackling the cleaning step was a real challenge and an essential part of making the data usable — a task I was proud to complete.
 
-## 1️⃣ ETL [Python- pandas]
+### 1️⃣ ETL [Python- pandas]
 **Extract**
 
 Data is pulled from an Recipe API (https://www.themealdb.com/api.php) | json to dataframe
