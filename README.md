@@ -2,22 +2,21 @@
 This small project focuses on an ETL (Extract, Transform, Load) pipeline that pulls data from an API, performs extensive cleaning on a complex and messy dataset, and loads the results into a SQL-based data warehouse. Tackling the cleaning step was a real challenge and an essential part of making the data usable — a task I was proud to complete.
 
 ## Technologies Used
-* **Python/Pandas -** for data manipulation and transformation.
-* **PostgreSQL -** for relational data storage
+**Python/Pandas -** for data manipulation and transformation.
+
+**PostgreSQL -** for relational data storage
 
 ## Project Scope
-### 1️⃣ ETL
-**Extract**
+### 1️⃣ EXTRACT
+* **API Integration:** Extract data from Recipe API (https://www.themealdb.com/api.php) in JSON format.
+* **Data Loading:** Convert JSON response to pandas DataFrame for processing.
 
-Data is pulled from an Recipe API (https://www.themealdb.com/api.php) | json to dataframe
+### 2️⃣ TRANSFORM
+* Data Cleaning: Remove irrelevant columns, rename columns, and standardize case formatting.
 
-**Transform**
+● Normalization: Standardize ingredient names (e.g., "sugar" to "granulated sugar") and create separate tables to maintain normalized database structure.
 
-Cleaning: Removing irrelevant columns, renaming columns and lowering cases.
-
-Normalization: Standardizing ingredient names (e.g., "sugar" to "granulated sugar") & Creating separate tables to maintain a normalized database structure.
-
-Data Conversion: Creating new columns based on a column.
+● Data Conversion: Create new columns based on existing data to enhance analytical capabilities.
 
 
 **Load**
