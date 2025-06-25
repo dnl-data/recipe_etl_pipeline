@@ -58,4 +58,4 @@ Implementation of the data in culinary applications
 ### Connect with me
 **LinkedIn :** www.linkedin.com/in/d-ngoma-l-8a8670240 
 
-**Dataset also available on Kaggle :** https://www.kaggle.com/datasets/merveillenl04/recipe-data/data
+**Datasets also available on Kaggle :** https://www.kaggle.com/datasets/merveillenl04/recipe-data/data
