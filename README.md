@@ -42,10 +42,15 @@ This small project focuses on an ETL (Extract, Transform, Load) pipeline that pu
 
 ## Use cases
 Classification models to predict cuisine type from ingredients
+
 Diet classification models based on ingredient combinations
+
 Unsupervised clustering to group similar recipes
+
 NLP techniques for ingredient description analysis
+
 Recipe recommendation systems
+
 Implementation of the data in culinary applications
 
 
