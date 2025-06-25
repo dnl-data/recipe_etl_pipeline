@@ -38,3 +38,18 @@ This small project focuses on an ETL (Extract, Transform, Load) pipeline that pu
 
 ## ERD Schema
 
+![image](https://github.com/user-attachments/assets/b29da60a-112d-4d84-8e84-d2c6810145e9)
+
+## Use cases
+Classification models to predict cuisine type from ingredients
+Diet classification models based on ingredient combinations
+Unsupervised clustering to group similar recipes
+NLP techniques for ingredient description analysis
+Recipe recommendation systems
+Implementation of the data in culinary applications
+
+
+### Connect with me
+**LinkedIn : ** www.linkedin.com/in/d-ngoma-l-8a8670240 
+
+Dataset also available on Kaggle : 
