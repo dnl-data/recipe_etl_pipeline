@@ -7,6 +7,9 @@ This small project focuses on an ETL (Extract, Transform, Load) pipeline that pu
 **PostgreSQL -** for relational data storage
 
 ## Project Scope
+
+![Project Process Schema](https://github.com/user-attachments/assets/5d06e28b-6846-44ea-9ea1-2f59434057f7)
+
 ### 1️⃣ EXTRACT
 
 * **API Integration:** Extracting data from Recipe API (https://www.themealdb.com/api.php) in JSON format.
