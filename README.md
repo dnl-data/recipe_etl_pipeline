@@ -1,10 +1,12 @@
 # Recipe ETL Pipeline
 This small project focuses on an ETL (Extract, Transform, Load) pipeline that pulls data from an API, performs extensive cleaning on a complex and messy dataset, and loads the results into a SQL-based data warehouse. Tackling the cleaning step was a real challenge and an essential part of making the data usable — a task I was proud to complete.
 
+
 ## Technologies Used
 **Python/Pandas -** for data manipulation and transformation.
 
 **PostgreSQL -** for relational data storage
+
 
 ## Project Scope
 
@@ -34,4 +36,5 @@ This small project focuses on an ETL (Extract, Transform, Load) pipeline that pu
 * **Data Validation & Quality Checks:** Applying SQL constraints (NOT NULL, FOREIGN KEY) to maintain data integrity and ensure referential integrity between related tables. Execute test queries (aggregate, filter, join) to ensure data consistency and identify any anomalies or errors during the ETL process.
 
 
+## ERD Schema
 
