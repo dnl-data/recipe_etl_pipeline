@@ -327,5 +327,15 @@ tables = {
     'type_cuisine_table': type_cuisine_table
 }
 
-for name, df in tables.items():
-    df_to_csv(df, name)
+# Error handling & succes validation
+try:
+    
+    # Export to CSV
+    for name, df in tables.items():
+        df_to_csv(df, name)
+    
+    print(f"✅ {total_recipes} recipes transformed successfully!")
+    print(f"✅ All tables created and exported to CSV!")
+    
+except Exception as e:
+    print(f"❌ Error during transformation: {str(e)}")
