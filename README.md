@@ -22,7 +22,7 @@ This small project focuses on an ETL (Extract, Transform, Load) pipeline that pu
 
 * **Data Cleaning:** Removing irrelevant columns, rename columns, and standardize case formatting.
 
-* **Normalization:** Standardizing ingredient names (e.g., "sugar" to "granulated sugar") and create separate tables to maintain normalized database structure.
+* **Normalization:** Standardizing ingredient names (e.g., from "granulated sugar" to "sugar") and create separate tables to maintain normalized database structure.
 
 * **Data Conversion:** Creating new columns based on existing data to enhance analytical capabilities.
 
