@@ -4,8 +4,8 @@ import re
 import pandas as pd
 import numpy as np
 
-uncleaned_df = pd.read_csv("uncleaned_recipes.csv")
-
+from recipe_extraction import extract_recipes
+uncleaned_df = extract_recipes()
 
 def del_unwanted_columns(column_name):
     """Delete columns containing a specific string in their name
