@@ -42,3 +42,17 @@ for letter in string.ascii_lowercase:
 
 uncleaned_df = pd.DataFrame(all_recipes)
 
+
+# Error handling & succes validation
+try:
+    
+    uncleaned_df = pd.DataFrame(all_recipes)
+    
+    
+    if len(uncleaned_df) > 0:
+        print(f"✅ {len(uncleaned_df)} recipes extracted successfully!")
+    else:
+        print("⚠️ No recipes were extracted - check API connection")
+        
+except Exception as e:
+    print(f"❌ Error during extraction: {str(e)}")
