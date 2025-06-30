@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import numpy as np
 
-from .recipe_extraction import extract_recipes  
+from recipe_extraction import extract_recipes  
 uncleaned_df = pd.DataFrame(extract_recipes())  
 
 def del_unwanted_columns(column_name):
@@ -197,16 +197,14 @@ transformed_data = {
     'type_cuisine_table': type_cuisine_table
 }
 
-# Validation and error handling
-try:
-    total_recipes = len(recipe_table)
-    print(f"✅ {total_recipes} recipes transformed successfully!")
-    print("✅ All DataFrames created and ready for loading!")
-    
-    # Return the dictionary of DataFrames 
-    # (This would be imported by your recipe_load script)
-    return transformed_data
-    
-except Exception as e:
-    print(f"❌ Error during transformation: {str(e)}")
-    raise  # Re-raise the exception for the calling script to handle
+def transform_recipes():
+    """Validates and returns the transformed recipe data."""
+    try:
+        total_recipes = len(transformed_data['recipe_table'])
+        print(f"✅ {total_recipes} recipes transformed successfully!")
+        print("✅ All DataFrames ready for loading!")
+        return transformed_data
+        
+    except Exception as e:
+        print(f"❌ Validation error: {str(e)}")
+        raise
