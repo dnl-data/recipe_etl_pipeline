@@ -2,16 +2,10 @@ import pandas as pd
 from sqlalchemy import create_engine
 from psycopg2 import sql
 
+from recipe_transformation import transform_recipes
 
-# Import transformed DataFrames from recipe_transformation
-from recipe_transformation import (
-    recipe_table,
-    ingredient_table,
-    recipe_ingredient_table,
-    type_diet_table,
-    type_course_table,
-    type_cuisine_table
-)
+# Get all transformed data in one line (just like extraction example)
+transformed_data = transform_recipes()
 
 
 # Database connection parameters

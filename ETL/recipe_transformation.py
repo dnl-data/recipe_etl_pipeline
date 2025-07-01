@@ -201,10 +201,14 @@ def transform_recipes():
     """Validates and returns the transformed recipe data."""
     try:
         total_recipes = len(transformed_data['recipe_table'])
-        print(f"✅ {total_recipes} recipes transformed successfully!")
-        print("✅ All DataFrames ready for loading!")
+        print(f"✅ {total_recipes} recipes transformed successfully!",flush=True)
+        print("✅ All DataFrames ready for loading!",flush=True)
         return transformed_data
         
     except Exception as e:
-        print(f"❌ Validation error: {str(e)}")
+        print(f"❌ Validation error: {str(e)}",flush=True)
         raise
+
+if __name__ == "__main__":
+    import sys
+    transform_recipes()
