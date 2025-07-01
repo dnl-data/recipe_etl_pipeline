@@ -138,7 +138,7 @@ word_frequencies_df = count_word_frequencies(all_ingredients_df, 'ingredient')
 
 def replace_standardized_words(df, column_name, replace_dict):
     """Standardize ingredient names"""
-    df = df.copy()  # Fixes SettingWithCopyWarning
+    df = df.copy()  
     def replace_words(text):
         for word, replace_word in replace_dict.items():
             text = re.sub(rf'\b{word}\b', replace_word, text)
@@ -151,7 +151,7 @@ def replace_standardized_words(df, column_name, replace_dict):
 replace_ingredients_name = {
     'almonds': 'almond',
     'plain flour': 'flour',
-    # ... (keep your existing replacement dictionary)
+    
 }
 
 standardized_ingredients = replace_standardized_words(all_ingredients_df, 'ingredient', replace_ingredients_name)
