@@ -3,7 +3,7 @@ This small project focuses on an one-time ETL (Extract, Transform, Load) pipelin
 
 
 ## Technologies Used
-**Python/Pandas -** for data manipulation and transformation.
+**Python/Pandas -** for data extraction and transformation.
 
 **PostgreSQL -** for relational data storage
 
