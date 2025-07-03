@@ -31,10 +31,11 @@ This small project focuses on an one-time ETL (Extract, Transform, Load) pipelin
 
 * **PostgreSQL Integration:** Loading the cleaned and normalized dataset into PostgreSQL data warehouse.
   
-* **Data Validation & Quality Checks:** Applying SQL constraints (NOT NULL, FOREIGN KEY) to maintain data integrity and ensure referential integrity between related tables. Execute test queries (aggregate, filter, join) to ensure data consistency and identify any anomalies or errors during the ETL process.
+* **Data Validation:** Applying SQL constraints (FOREIGN KEY) to maintain data integrity and ensure referential integrity between related tables. 
   
 * **Indexing & Performance Optimization:** Setting up indexes for frequently used columns such as recipe_id, ingredient_id to ensure fast querying and reporting, speeding up searches and aggregations for complex queries and table joins.
 
+* **Test Queries:** Ensuring data consistency and identify any anomalies or errors during the ETL process.
 
 ## ERD Schema
 
