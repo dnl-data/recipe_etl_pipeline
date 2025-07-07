@@ -41,6 +41,76 @@ This small project focuses on an one-time ETL (Extract, Transform, Load) pipelin
 
 ![image](https://github.com/user-attachments/assets/b29da60a-112d-4d84-8e84-d2c6810145e9)
 
+## How to Run the ETL Project Locally
+
+Follow these steps to run the full ETL pipeline on your machine.
+
+### 1. Clone the repository
+
+Clone the project and navigate into the directory:
+
+```
+git clone https://github.com/dnl-data/recipe_etl_pipeline.git
+cd recipe_etl_pipeline
+```
+
+### 2. 🐍 Create a virtual environment and install dependencies
+
+Create a virtual environment and install required Python packages:
+
+```
+python -m venv venv
+source venv/bin/activate  # On macOS/Linux
+# On Windows: venv\Scripts\activate
+```
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+### 3. Set up your PostgreSQL database
+
+Make sure PostgreSQL is installed and running.  
+Then create a new database (e.g., `recipes_db`) using your preferred tool (pgAdmin, DBeaver, CLI, etc.).
+
+### 4. Configure your `.env` file
+
+Create a `.env` file in the root directory and add your PostgreSQL credentials:
+
+```
+DB_USER=your_username
+DB_PASS=your_password
+DB_HOST=your_host
+DB_PORT=your_port #5432 by default
+DB_NAME=recipes_db
+```
+
+### 5. Run the entire ETL pipeline
+
+Execute the main pipeline script:
+
+```
+python ETL/run_all.py
+```
+
+This script will:
+
+* Extract data from TheMealDB API  
+* Transform and clean the data  
+* Load the final data into your PostgreSQL database  
+
+### Optional: Run steps individually
+
+You can also run each script separately if needed:
+
+```
+python ETL/recipe_extraction.py
+python ETL/recipe_transformation.py
+python ETL/recipe_load.py
+```
+
+
 ## Use cases
 Classification models to predict cuisine type from ingredients
 
