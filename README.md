@@ -91,7 +91,7 @@ DB_NAME=your_database_name
 Execute the main pipeline script:
 
 ```
-python ETL/run_all.py
+python src/pipeline/run_all.py
 ```
 
 This script will:

@@ -28,7 +28,8 @@ del_unwanted_columns('strMeasure')
 def reset_id(column_name):
   """Reset the index of a column"""
   for index, row in uncleaned_df.iterrows():
-    uncleaned_df.at[index, column_name] = index + 1
+    uncleaned_df.at[index, column_name] = str(index + 1)
+    
 
 
 reset_id('idMeal')
