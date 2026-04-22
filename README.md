@@ -91,7 +91,7 @@ DB_NAME=your_database_name
 Execute the main pipeline script:
 
 ```
-python src/pipeline/run_all.py
+python src/run_all.py
 ```
 
 This script will:
@@ -105,9 +105,9 @@ This script will:
 You can also run each script separately if needed:
 
 ```
-python ETL/recipe_extraction.py
-python ETL/recipe_transformation.py
-python ETL/recipe_load.py
+python src/recipe_extraction.py
+python src/recipe_transformation.py
+python src/recipe_load.py
 ```
 
 

@@ -1,50 +1,36 @@
 import pandas as pd
-from sqlalchemy import create_engine
+import duckdb
 from recipe_transformation import transform_recipes
-from dotenv import load_dotenv
-import os
-
-# Load environment variables from .env file
-load_dotenv()
 
 # Get transformed data
 transformed_data = transform_recipes()
 
+# Create DuckDB connection
+conn = duckdb.connect()
 
-# Database connection parameters from environment
-DB_USER = os.getenv('DB_USER')
-DB_PASS = os.getenv('DB_PASS')
-DB_HOST = os.getenv('DB_HOST')
-DB_PORT = os.getenv('DB_PORT')
-DB_NAME = os.getenv('DB_NAME')
-
-
-# Create SQLAlchemy engine
-engine = create_engine(f'postgresql+psycopg2://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}')
-
-def load_dataframe_to_db(df, table_name, if_exists='replace'):
+def load_dataframe_to_duckdb(conn, df, table_name, if_exists='replace'):
     try:
-        df.to_sql(
-            name=table_name,
-            con=engine,
-            if_exists=if_exists,
-            index=False,
-            method='multi',
-            chunksize=1000
-        )
+        if if_exists == 'replace':
+            conn.execute(f"DROP TABLE IF EXISTS {table_name}")
+        
+        # Register DataFrame and create table from it
+        conn.register('temp_df', df)
+        conn.execute(f"CREATE TABLE {table_name} AS SELECT * FROM temp_df")
+        conn.unregister('temp_df')
+        
         print(f"✅ Successfully loaded {len(df)} records to table '{table_name}'")
     except Exception as e:
         print(f"❌ Error loading {table_name}: {str(e)}")
         raise
 
-def load_to_postgres(data_dict):
-    print("Starting database load process...\n")
+def load_to_duckdb(data_dict):
+    print("Starting DuckDB load process...\n")
     for table_name, df in data_dict.items():
         print(f"Loading {table_name}...")
-        load_dataframe_to_db(df, table_name)
-    print("✅ All recipe tables loaded successfully!\n")
-
+        load_dataframe_to_duckdb(conn, df, table_name)
+    
+    return conn
 
 # Run 
 if __name__ == "__main__":
-    load_to_postgres(transformed_data)
+    conn = load_to_duckdb(transformed_data)
