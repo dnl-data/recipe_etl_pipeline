@@ -1,16 +1,23 @@
-# Automatically generated files by Python
+# Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*.so
 
-# Virtual Environment
+# Virtual environment
 venv/
+env/
 .env
 
-# Log and temporary files
-*.log
-*.tmp
+# DuckDB database
+*.duckdb
 
-# System files (macOS, Windows)
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Data files (optional - uncomment if data is large)
+# data/structured/*.csv
