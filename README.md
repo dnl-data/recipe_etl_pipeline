@@ -2,13 +2,13 @@
 
 This small project focuses on a one-time ETL (Extract, Transform, Load) pipeline that pulls data from an API, performs extensive cleaning on a complex and messy dataset, and loads the results into a SQL-based data warehouse. Tackling the cleaning step was a real challenge and an essential part of making the data usable — a task I was proud to complete.
 
-## Technologies Used
+## Stack
 - **Python/Pandas** - for data extraction and transformation
 - **DuckDB** - for lightweight, embedded SQL-based data storage
 
 ## Project Scope
 
-![Project Process Schema](https://github.com/user-attachments/assets/5d06e28b-6846-44ea-9ea1-2f59434057f7)
+<img width="500" height="300" alt="Project Process Schema" src="https://github.com/user-attachments/assets/de7815a8-accd-4dbe-9280-1e6811286498" />
 
 ### 1️⃣ EXTRACT
 
